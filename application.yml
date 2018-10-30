@@ -1,0 +1,33 @@
+
+foo: bar
+---
+
+spring:
+  profiles: local
+
+---
+
+spring:
+  profiles: dev
+
+---
+
+spring:
+  profiles: qa
+
+---
+
+spring:
+  profiles: staging
+
+---
+
+spring:
+  profiles: load
+
+
+---
+
+spring:
+  profiles: prod
+
